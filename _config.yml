@@ -1,6 +1,9 @@
 exclude:
   - node_modules
   - script
+  - vendor
+  - Gemfile
+  - Gemfile.lock
 
 sass:
   style: :compressed

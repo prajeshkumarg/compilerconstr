@@ -1,0 +1,21 @@
+exclude:
+  - node_modules
+  - script
+
+sass:
+  style: :compressed
+
+#theme: jekyll-theme-notion
+
+github:
+  private: false
+  license:
+    name: MIT
+  source:
+    branch: "master"
+    path: "/"
+  repository_url: "https://github.com/xdanger/jekyll-theme-notion"
+
+title: Compiler Construction Notes
+description: Compiler construction class notes.
+author: Prajesh

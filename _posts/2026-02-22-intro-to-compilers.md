@@ -2,7 +2,8 @@
 layout: post
 title: "Introduction to Compilers"
 date: 2026-02-22 12:00:00 -0500
-categories: compilers
+categories: [Compilers]
+tags: [compilers, intro]
 ---
 
 # Introduction to Compilers

@@ -1,24 +1,36 @@
+theme: jekyll-theme-chirpy
+
+title: Compiler Construction Notes
+tagline: Personal notes for compiler construction class
+description: >-
+  Compiler construction class notes by Prajesh.
+  Covers lexical analysis, parsing, semantic analysis,
+  optimization, and code generation.
+
+url: "https://gprajeshkumar.github.io"
+baseurl: "/compilerconstr"
+
+github:
+  username: gprajeshkumar
+
+timezone: America/New_York
+
+# Theme color mode — "light", "dark", or "auto"
+theme_mode: dark
+
+# Number of posts per page
+paginate: 10
+
+# Chirpy avatar (place image in /assets/img/)
+avatar: ""
+
+toc: true
+
 exclude:
   - node_modules
   - script
   - vendor
   - Gemfile
   - Gemfile.lock
-
-sass:
-  style: :compressed
-
-#theme: jekyll-theme-notion
-
-github:
-  private: false
-  license:
-    name: MIT
-  source:
-    branch: "master"
-    path: "/"
-  repository_url: "https://github.com/xdanger/jekyll-theme-notion"
-
-title: Compiler Construction Notes
-description: Compiler construction class notes.
-author: Prajesh
+  - "*.gemspec"
+  - _sass

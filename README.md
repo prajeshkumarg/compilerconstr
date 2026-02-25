@@ -1,34 +1,58 @@
-# A Notion-like Jekyll theme
+# Compiler Construction Notes
 
-- This is a modified Jekyll theme based on [official theme](https://github.com/pages-themes/primer).
-- There will be no plan to have a pull request to merge the original repo.
-- All features are designed to compatible to [`github-pages`](https://github.com/github/pages-gem), so that your Jekyll site will be generated well by [GitHub Pages](https://pages.github.com/).
+NOTE: This is partly created using AI. All the content for the blog  is human written (and hence prone to error) while the site setup was created using AI Agents.
 
-## Usage
+This repository contains a Jekyll-based site that hosts notes, tutorials, and example material about compiler construction. The site is prepared for static site generation and includes posts, pages, and static assets.
 
-Install `github-pages`
+Key contents
+- `_posts/`: blog-like posts, including `2026-02-22-intro-to-compilers.md`.
+- `compilers/`: exported HTML for specific compiler topics.
+- `assets/`: CSS, JS, images used by the site.
+- `script/`: helper scripts to build, serve, and release the site.
 
-```sh
-gem install github-pages
+Quick start (local)
+
+Prerequisites:
+- Ruby (for Jekyll) and Bundler
+- Node/npm (for frontend tooling if you modify assets)
+
+Typical local workflow:
+
+1. Install Ruby gems:
+
+```bash
+bundle install
 ```
 
-see what plugins are installed
+2. Start the local server (development):
 
-```sh
-github-pages versions
+```bash
+./script/server
+# or
+bundle exec jekyll serve
 ```
 
-Edit `_config.yml`, add
+3. Build the site for production:
 
-```yml
-plugins:
-    - jekyll-remote-theme
-
-remote_theme: xdanger/jekyll-theme-notion
+```bash
+./script/build
+# or
+bundle exec jekyll build
 ```
 
-Run your site locally
+Project scripts
+- `script/server` — run a local dev server
+- `script/build` — build the static site
+- `script/release` — release/deploy helper
 
-```sh
-jekyll serve -l
-```
+License
+
+This project includes a `LICENSE.md` file at the repository root. Please review it for license details.
+
+Contact / Author - Prajesh - pg2973@nyu.edu
+
+See repository metadata and commit history for the primary maintainer contact information.
+
+Enjoy exploring compiler construction!
+
+

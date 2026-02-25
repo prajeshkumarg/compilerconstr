@@ -18,13 +18,12 @@ timezone: America/New_York
 # Theme color mode — "light", "dark", or "auto"
 theme_mode: dark
 
-# Number of posts per page
-paginate: 10
-
 # Chirpy avatar (place image in /assets/img/)
 avatar: ""
 
 toc: true
+
+paginate: 10
 
 exclude:
   - node_modules
@@ -33,4 +32,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - "*.gemspec"
-  - _sass

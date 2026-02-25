@@ -1,18 +1,11 @@
 {
-  "name": "jekyll-theme-primer",
-  "version": "0.1.0",
-  "description": "A Jekyll theme based on GitHub's Primer styles",
-  "main": "index.html",
+  "name": "compiler-construction-notes",
+  "version": "1.0.0",
+  "description": "Compiler Construction Notes - Personal notes by Prajesh Kumar",
   "scripts": {
-    "test": "script/cibuild"
+    "build": "bundle exec jekyll build",
+    "serve": "bundle exec jekyll serve"
   },
-  "author": "Ben Balter",
-  "license": "MIT",
-  "dependencies": {
-    "primer-base": "^1.3.0",
-    "primer-layout": "^1.2.0",
-    "primer-markdown": "^3.5.0",
-    "primer-support": "^4.2.0",
-    "primer-utilities": "^4.5.0"
-  }
+  "author": "Prajesh Kumar",
+  "license": "MIT"
 }

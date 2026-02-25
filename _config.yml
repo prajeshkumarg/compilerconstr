@@ -7,11 +7,11 @@ description: >-
   Covers lexical analysis, parsing, semantic analysis,
   optimization, and code generation.
 
-url: "https://gprajeshkumar.github.io"
+url: "https://prajeshkumarg.github.io"
 baseurl: "/compilerconstr"
 
 github:
-  username: gprajeshkumar
+  username: prajeshkumarg
 
 timezone: America/New_York
 
